@@ -1,0 +1,4 @@
+"C:\Program Files\JetBrains\CLion 2017.2\bin\cmake\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -DCMAKE_CXX_FLAGS=-IC:/dev/libs/SFML/include -DCMAKE_EXE_LINKER_FLAGS=-LC:/dev/libs/SFML/lib -G "CodeBlocks - MinGW Makefiles" C:\Users\jan_k\Documents\DAT220_H17\tere\tere
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/jan_k/Documents/DAT220_H17/tere/tere/cmake-build-debug

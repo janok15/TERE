@@ -1,0 +1,3 @@
+C:/Users/jan_k/Documents/DAT220_H17/tere/tere/cmake-build-debug/CMakeFiles/tere.dir
+C:/Users/jan_k/Documents/DAT220_H17/tere/tere/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/jan_k/Documents/DAT220_H17/tere/tere/cmake-build-debug/CMakeFiles/rebuild_cache.dir

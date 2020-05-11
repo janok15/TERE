@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="tere"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tere">
+				<Option output="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/tere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/."/>
+					<Add directory="C:/dev/libs/SFML/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 tere"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tere/fast">
+				<Option output="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/tere.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/."/>
+					<Add directory="C:/dev/libs/SFML/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include/c++/backward"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/include-fixed"/>
+					<Add directory="C:/mingw-w64/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/6.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 tere/fast"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/mingw-w64/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/application/application.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/application/application.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/button.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/button.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/text_button.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/text_button.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/text_key_mapper.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/text_key_mapper.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/controls/text_toggle.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/credits/credits_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/credits/credits_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/custom/custom_bag_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/custom/custom_bag_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/custom/custom_map_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/custom/custom_map_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/custom/custom_menu_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/custom/custom_menu_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/ai.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/ai.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/custom_map.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/custom_map.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/game_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/game_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/grid.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/grid.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/input.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/input.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/sweep.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/sweep.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/tetromino.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/tetromino.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/text.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/text.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/tile.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/game/tile.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/common.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/cube.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/cube.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/line.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/line.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/star.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/star.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/starfield_a.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/starfield_a.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/starfield_b.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/starfield_b.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/starfield_handler.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/starfield_handler.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/wave_text.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/gfx/wave_text.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/highscore/highscore.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/highscore/highscore.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/highscore/highscore_display_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/highscore/highscore_display_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/highscore/highscore_entry_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/highscore/highscore_entry_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/main.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/game_selection_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/game_selection_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/main_menu_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/main_menu_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/menu_options_control_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/menu_options_control_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/menu_options_general_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/menu_options_general_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/menu_options_state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/menu/menu_options_state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/resource.rc">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/resource/resource_holder.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/resource/resource_identifiers.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/settings/game_settings.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/settings/game_settings.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/settings/player_key_map.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/settings/settings_parser.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/settings/settings_parser.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/sound/music_player.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/sound/music_player.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/sound/sound_player.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/sound/sound_player.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/state/state.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/state/state.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/state/state_identifiers.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/state/state_stack.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/state/state_stack.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/utility/key_converter.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/utility/key_converter.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/utility/utility.cpp">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/utility/utility.h">
+			<Option target="tere"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/jan_k/Documents/DAT220_H17/TERE_Release/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
